@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+   
+}
+body{
+    height:100vh;
+    background:black;
+    color:white;
+}
+
+
+
+
+header{
+    margin:25px;
+    padding:18px 35px;
+    background:gray;
+    border-radius:20px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+}
+.logo:hover{
+    
+    font-weight: bolder;
+    color: chartreuse;
+}
+
+
+.logo span{
+    color:#00ff99;
+}
+
+
+nav{
+    display:flex;
+    gap:35px;
+}
+
+
+nav a{
+    text-decoration:none;
+    color:#ddd;
+}
+
+
+nav a:hover{
+    color:#00ff99;
+}
+
+
+
+
+button{
+    padding:14px 25px;
+    border:none;
+    border-radius:25px;
+    background:#00ff99;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+button:hover{
+    transform:scale(1.05);
+}
+
+
+
+
+
+
+.hero{
+    text-align:center;
+    margin-top:120px;
+}
+
+
+.badge{
+    display:inline-block;
+    padding:10px 25px;
+    background:#222;
+    border-radius:30px;
+    color:#00ff99;
+}
+
+
+h1{
+    font-size:65px;
+    margin:35px 0;
+    line-height:1.1;
+}
+
+
+p{
+    width:650px;
+    margin:auto;
+    color:#aaa;
+    font-size:18px;
+    line-height:1.6;
+}
+
+
+.buttons{
+    margin-top:35px;
+}
+
+
+.outline{
+    margin-left:15px;
+    background:transparent;
+    border:1px solid #00ff99;
+    color:white;
+}
